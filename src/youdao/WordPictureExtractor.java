@@ -28,11 +28,14 @@ public class WordPictureExtractor {
       ZipEntry ze; 
       while ((ze = zin.getNextEntry()) != null) { 
         if (ze.isDirectory()) {
-        } else { 
-          System.err.println("file - " + ze.getName() + " : " 
-              + ze.getSize() + " bytes"); 
-          long size = ze.getSize(); 
-          if (size > 0) { 
+        	continue;
+        }  
+        String fileName = ze.getName();
+        if( !fileName.contains("word/media/image"))
+        	continue;
+        System.out.println(fileName + " : " + ze.getSize() + " bytes"); 
+        long size = ze.getSize(); 
+        if (size > 0) { 
             BufferedReader br = new BufferedReader( 
                 new InputStreamReader(zf.getInputStream(ze))); 
             String line; 
@@ -42,8 +45,9 @@ public class WordPictureExtractor {
             br.close(); 
           } 
           System.out.println(); 
-        } 
       } 
       zin.closeEntry(); 
+      zin.close();
+      zf.close();
     } 
 }
