@@ -79,11 +79,11 @@ public class YoudaoNote {
 	
 	public static void main(String[] args) {
 		
-		String main ="41b4c7bd84f4589c8ad1441eba2408c1";
-		String adhoc = "24b223ba96281fecae00e11e07156f3f";
+		String main ="f5c2f04d8aa3032ee29dc2df148faa4b";
+		String adhoc = "b4b6aa63376c49ba50375a8d245863c7";
 		String urlStr = "http://note.youdao.com/yws/public/note/"
-				    // + adhoc
-				     + main
+				     // + adhoc
+				      + main
 				+ "?keyfrom=public";
 		
 		System.out.println(urlStr);
