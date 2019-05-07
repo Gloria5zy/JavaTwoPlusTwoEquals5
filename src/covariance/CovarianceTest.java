@@ -55,9 +55,10 @@ public class CovarianceTest {
 		List<Integer> myInts = Arrays.asList(1,2,3,4,5);
 		List<Long> myLongs = Arrays.asList(1L, 2L, 3L, 4L, 5L);
 		List<Double> myDoubles = Arrays.asList(1.0, 2.0, 3.0, 4.0, 5.0);
-		System.out.println(sum2(myInts)); 
-		System.out.println(sum2(myLongs)); 
-		System.out.println(sum2(myDoubles)); 
+		// System.out.println(sum2(myInts)); syntax error
+		// System.out.println(sum2(myLongs)); 
+		// System.out.println(sum2(myDoubles)); 
+		return 0l;
 	}
 	
 	private static long coVariantSum(List<? extends Number> list){
@@ -104,7 +105,8 @@ public class CovarianceTest {
 		src.add(new ToyDog("Jerry2"));
 		
 		List<Cat> dest = new ArrayList(Arrays.asList( new Object[src.size()])); 
-		java.util.Collections.copy(dest, src);
+		// syntax error
+		// java.util.Collections.copy(dest, src);
 		for( int i = 0; i < dest.size(); i++){
 			dest.get(i).shout();
 		}
@@ -120,7 +122,8 @@ public class CovarianceTest {
 		
 		List<Cat> catContainer = new ArrayList<Cat>();
 		
-		forABAPer(catContainer);
+		// syntax error
+		// forABAPer(catContainer);
 	}
 	
 	private static void forABAPer(List<? extends Dog> container){

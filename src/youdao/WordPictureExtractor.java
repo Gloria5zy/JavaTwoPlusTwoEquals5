@@ -18,7 +18,7 @@ public class WordPictureExtractor {
 
 	public static void main(String[] args) throws Exception {
 		try {
-			readZipFile("C:\\Users\\i042416\\Pictures\\1.zip");
+			readZipFile("C:\\Users\\i042416\\Pictures\\1.docx");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
