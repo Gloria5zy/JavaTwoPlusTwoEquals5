@@ -49,7 +49,6 @@ public class DynamicProxyDemo implements Serializable {
 	}
 
 	private static String createJavaFile(String sourceCode) {
-		// TODO: avoid using absolute file path in productive code
 		String fileName = "C:\\Users\\i042416\\git\\JavaTwoPlusTwoEquals5\\src\\dynamicproxy\\DynamicProxy.java";
 		File javaFile = new File(fileName);
 		Writer writer;

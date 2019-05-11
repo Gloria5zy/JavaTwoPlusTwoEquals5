@@ -53,27 +53,23 @@ public class ConfigureStatus implements Runnable, CommunicationForStatus{
 			out.close();
 			client.close();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} 
 	}
 
 	@Override
 	public void startRequest() {
-		// TODO Auto-generated method stub
 		Thread thread = new Thread(this);
 		thread.start();
 		try {
 			thread.join(2000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 
 	@Override
 	public String getStatus() {
-		// TODO Auto-generated method stub
 		return ConfigureStatus;
 	}
 	

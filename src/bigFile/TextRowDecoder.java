@@ -79,7 +79,6 @@ public class TextRowDecoder implements Decoder<byte[][]> {
 	    try {
 			System.out.println("Jerry field: " + new String(field,"UTF-8"));
 		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	    return field;

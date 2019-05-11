@@ -37,7 +37,6 @@ public class OriginalMainUI extends JPanel implements UserInterface {
 	
 	@Override
 	public void createUI() {
-		// TODO Auto-generated method stub
 		mainFrame = new JFrame("File Searching System");
 		mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		GridBagLayout layout = new GridBagLayout();
@@ -124,7 +123,6 @@ public class OriginalMainUI extends JPanel implements UserInterface {
 
 			@Override
 			public void itemStateChanged(ItemEvent e) {
-				// TODO Auto-generated method stub
 				if(e.getStateChange() == ItemEvent.SELECTED)
 				{
 					if(e.getItem().toString().equals("Key Word"))
@@ -221,7 +219,6 @@ public class OriginalMainUI extends JPanel implements UserInterface {
 				tempdate = sdf.parse(exactSearchPane.jftofcreateend.getText());
 				dates.add(tempdate);
 			} catch (ParseException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 				dates.add(null);
 				dates.add(null);
@@ -243,7 +240,6 @@ public class OriginalMainUI extends JPanel implements UserInterface {
 				tempdate = sdf.parse(exactSearchPane.jftofmodifyend.getText());
 				dates.add(tempdate);
 			} catch (ParseException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 				dates.add(null);
 				dates.add(null);
@@ -264,7 +260,6 @@ public class OriginalMainUI extends JPanel implements UserInterface {
 				tempdate = sdf.parse(exactSearchPane.jftofaccessend.getText());
 				dates.add(tempdate);
 			} catch (ParseException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 				dates.add(null);
 				dates.add(null);

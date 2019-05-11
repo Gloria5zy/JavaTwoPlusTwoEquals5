@@ -62,7 +62,6 @@ public class FileReader<T> implements Iterable<List<T>> {
 	        if (entries != null) {
 	          return true;
 	        } else {
-	        // Jerry TODO
 	          // Closeables.closeQuietly(channel);
 	          return false;
 	        }
@@ -73,7 +72,6 @@ public class FileReader<T> implements Iterable<List<T>> {
 	        try {
 	          if (channel == null || channel.size() == position) {
 	            if (channel != null) {
-	            	// Jerry TODO
 	              // Closeables.closeQuietly(channel);
 	              channel = null;
 	            }
@@ -111,19 +109,16 @@ public class FileReader<T> implements Iterable<List<T>> {
 
 		@Override
 		public void forEachRemaining(Consumer<? super List<T>> arg0) {
-			// TODO Auto-generated method stub
-			
+
 		}
 	    };
 	  }
 	@Override
 	public void forEach(Consumer<? super List<T>> arg0) {
-		// TODO Auto-generated method stub
-		
+
 	}
 	@Override
 	public Spliterator<List<T>> spliterator() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 	}

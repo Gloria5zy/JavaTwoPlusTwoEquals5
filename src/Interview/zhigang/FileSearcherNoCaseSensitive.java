@@ -14,7 +14,6 @@ public class FileSearcherNoCaseSensitive implements FileSearch{
 
 	@Override
 	public void searchFile(String basePath, String keyWord, ArrayList<FileProperty> fileList) {
-		// TODO Auto-generated method stub
 		String tempName = null; 
 		File baseDir = new File(basePath);
 		if (!baseDir.exists() || !baseDir.isDirectory()){  

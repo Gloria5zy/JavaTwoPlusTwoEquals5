@@ -100,7 +100,6 @@ public class SwingGui  extends JFrame{
 	private class ButtonBrowseHandler implements ActionListener {
 		@Override
 		public void actionPerformed(ActionEvent arg0) {
-			// TODO Auto-generated method stub
 			JFileChooser jfc=new JFileChooser();
 			jfc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY );
 			jfc.showDialog(new JLabel(), "选择");
@@ -159,7 +158,6 @@ public class SwingGui  extends JFrame{
 
 		@Override
 		protected Boolean doInBackground() throws Exception {
-			// TODO Auto-generated method stub
 			searchProcessBar.setValue(0);
 			FileSearch fileSearch = null;
 			if (isCaseSensitive) {

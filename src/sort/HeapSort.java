@@ -32,7 +32,6 @@ public class HeapSort {
 		}
 
 		private void swap(int[] data, int i, int j) {
-			// TODO Auto-generated method stub
 			int tmp = data[i];
 			data[i] = data[j];
 			data[j] = tmp;
@@ -40,7 +39,6 @@ public class HeapSort {
 
 		//对data数组从0到lastIndex建大顶堆
 		private void buildMaxHeap(int[] data, int lastIndex) {
-			// TODO Auto-generated method stub
 			//从lastIndex处节点（最后一个节点）的父节点开始
 
 			for(int i = (lastIndex - 1)/2; i >= 0; i--){

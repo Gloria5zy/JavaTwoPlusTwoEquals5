@@ -18,7 +18,6 @@ public class MyFile extends File {
 	public MyFile(String pathname) {
 		super(pathname);
 		isChecked = false;
-		// TODO Auto-generated constructor stub
 	}
 	
 	public List<MyFile> myListFiles(){

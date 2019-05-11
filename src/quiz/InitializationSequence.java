@@ -21,10 +21,8 @@ public class InitializationSequence {
 			// Jerry: need to specify full qualified name
 				Object m = Class.forName("quiz.InitializationSequence").newInstance();
 			} catch (InstantiationException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (IllegalAccessException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			catch( ClassNotFoundException ex) {

@@ -33,8 +33,6 @@ this来指代最内部的其超类是一个成员变量的外部类。Inner2间�
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 	}
 
 }

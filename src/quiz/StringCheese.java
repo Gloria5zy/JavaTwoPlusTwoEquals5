@@ -17,7 +17,6 @@ public class StringCheese {
 		try {
 			str = new String(bytes, "ISO-8859-1"); // 字符和字节之前做11映射
 		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		for( int i = 0, n = str.length(); i < n; i++) {

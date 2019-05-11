@@ -384,7 +384,6 @@ public class FileSearch {
 				try {
 					m_searchThread.join();
 				} catch (InterruptedException e1) {
-					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
 				m_searchThread = null;

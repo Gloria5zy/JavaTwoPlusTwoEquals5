@@ -208,7 +208,6 @@ public class FileSearcher extends JFrame implements ActionListener, PropertyChan
 					try {
 						desktop.open(new File(Filepath));
 					} catch (IOException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 				}
@@ -322,7 +321,6 @@ public class FileSearcher extends JFrame implements ActionListener, PropertyChan
 		// try {
 		// Thread.sleep(10);
 		// } catch (InterruptedException e) {
-		// // TODO Auto-generated catch block
 		// e.printStackTrace();
 		// }
 		// }while(Thread.activeCount()>3);
@@ -396,7 +394,6 @@ public class FileSearcher extends JFrame implements ActionListener, PropertyChan
 
 	@Override
 	public void valueChanged(ListSelectionEvent e) {
-		// TODO Auto-generated method stub
 
 	}
 
@@ -467,7 +464,6 @@ public class FileSearcher extends JFrame implements ActionListener, PropertyChan
 					try {
 						Thread.sleep(random.nextInt(10));
 					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					if(file.isDirectory()){
@@ -554,7 +550,6 @@ public class FileSearcher extends JFrame implements ActionListener, PropertyChan
 								}
 							}
 						} catch (IOException e) {
-							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
 						if(S_result){

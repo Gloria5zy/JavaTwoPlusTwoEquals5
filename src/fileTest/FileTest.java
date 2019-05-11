@@ -16,7 +16,6 @@ public class FileTest {
 			attrs = Files.readAttributes(file, BasicFileAttributes.class);
 			System.out.println("Last accessed at:" + attrs.lastAccessTime());
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}       
         

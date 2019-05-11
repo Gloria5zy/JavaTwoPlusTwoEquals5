@@ -65,7 +65,6 @@ public class SimpleOrderCreator {
 		try {
 			entity = new StringEntity(body);
 		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		post.setEntity(entity);
@@ -74,10 +73,8 @@ public class SimpleOrderCreator {
 		try {
 			response = getHttpClient().execute(post);
 		} catch (ClientProtocolException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

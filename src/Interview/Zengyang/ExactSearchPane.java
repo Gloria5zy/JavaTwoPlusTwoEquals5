@@ -135,7 +135,6 @@ public class ExactSearchPane extends JPanel {
 
 		@Override
 		public void itemStateChanged(ItemEvent e) {
-			// TODO Auto-generated method stub
 			if(e.getStateChange() == ItemEvent.SELECTED)
 			{
 				if(e.getItem().toString().equals(ALLTIME))
@@ -161,7 +160,6 @@ public class ExactSearchPane extends JPanel {
 
 		@Override
 		public void itemStateChanged(ItemEvent e) {
-			// TODO Auto-generated method stub
 			if(e.getStateChange() == ItemEvent.SELECTED)
 			{
 				if(e.getItem().toString().equals(ALLTIME))
@@ -191,7 +189,6 @@ public class ExactSearchPane extends JPanel {
 
 		@Override
 		public void itemStateChanged(ItemEvent e) {
-			// TODO Auto-generated method stub
 			if(e.getStateChange() == ItemEvent.SELECTED)
 			{
 				if(e.getItem().toString().equals(ALLTIME))

@@ -101,7 +101,6 @@ public class MainTest {
 
 	private static List getFileList(List<File> fileList, List<File> files,
 			int i, int size, int num) {
-		// TODO Auto-generated method stub
 		int N = size / num;
 		// int mod = size%num;
 		if (i < (num - 1)) {
@@ -120,7 +119,7 @@ public class MainTest {
 
 	/*
 	 * private static void doSleep(long ms){ try { Thread.sleep(ms); } catch
-	 * (InterruptedException e) { // TODO Auto-generated catch block
+	 * (InterruptedException e) { 
 	 * e.printStackTrace(); } }
 	 */
 }

@@ -70,7 +70,6 @@ public class Pair88<T> {
 			Class<?> jerry = Class.forName("quiz.Jerry");
 			// jerry.getAnnotation(Jerry.class);
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		   

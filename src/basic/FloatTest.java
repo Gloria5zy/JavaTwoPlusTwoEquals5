@@ -34,10 +34,8 @@ public class FloatTest {
 	 try {
 		System.out.println("static field value: " + staticField.get(tool));
 	} catch (IllegalArgumentException e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	} catch (IllegalAccessException e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
 	 

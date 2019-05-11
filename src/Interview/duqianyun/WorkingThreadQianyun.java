@@ -70,7 +70,6 @@ public class WorkingThreadQianyun implements Runnable {
 		try {
 			reader = new BufferedReader(new FileReader(file.getPath()));
 		} catch (FileNotFoundException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}			
 		String remains="";		
@@ -98,7 +97,6 @@ public class WorkingThreadQianyun implements Runnable {
 		try {
 			reader.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}		
 	}

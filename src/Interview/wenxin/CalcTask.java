@@ -13,7 +13,6 @@ public class CalcTask implements Task {
 
 	@Override
 	public ConcurrentHashMap<String, Integer> execute(File f) {
-		// TODO Auto-generated method stub
 		File file = new File(f.getAbsolutePath());
 		String line = null;
 		if (!file.exists()) {

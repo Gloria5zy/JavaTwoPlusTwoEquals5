@@ -20,7 +20,6 @@ public class WordPictureExtractor {
 		try {
 			readZipFile("C:\\Users\\i042416\\Pictures\\1.docx");
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

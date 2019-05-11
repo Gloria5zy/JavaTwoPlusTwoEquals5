@@ -15,7 +15,6 @@ public class AnnotationExample {
         System.out.println("old method, don't use it.");
     }
 
-    @SuppressWarnings({ "unchecked", "deprecation" })
     @MethodInfo(author = "Pankaj", comment = "Main method", date = "Nov 17 2012", version = "1.0")
     public static void genericsTest() {
         oldMethod();

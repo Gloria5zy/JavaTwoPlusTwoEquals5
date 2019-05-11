@@ -46,8 +46,6 @@ public class OptionTest1 {
 	 * 最终的divideFirstTwo代码如下：
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 	}
 	
 	public Optional<Double> divideFirstTwo3(JerryNumberProvider numberProvider, JerryMath math) {

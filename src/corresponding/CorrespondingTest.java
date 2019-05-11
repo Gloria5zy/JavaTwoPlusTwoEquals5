@@ -6,7 +6,6 @@ import java.util.function.Function;
 
 public class CorrespondingTest {
 	
-	@SuppressWarnings({ "unused", "unchecked" })
 	public static void main(String[] args) {
 		List<Developer> developers = new ArrayList<Developer>();
 		developers.add(new Developer("Jerry", "ABAP", 2000));

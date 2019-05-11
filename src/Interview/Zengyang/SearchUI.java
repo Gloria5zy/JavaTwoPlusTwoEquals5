@@ -109,7 +109,6 @@ public class SearchUI extends JFrame implements Runnable {
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		if(isKeySearch)
 		{
 			createUI();

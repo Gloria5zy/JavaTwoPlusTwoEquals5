@@ -58,7 +58,6 @@ str.substring(m, n) + ""
 		try {
 			date = new SimpleDateFormat("MMMM d, yy", Locale.ENGLISH).parse(d);
 		} catch (ParseException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println(date);

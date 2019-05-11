@@ -13,7 +13,6 @@ public class Main {
 	private static UserInterface mainUI;
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		mainUI = new OriginalMainUI();
 		mainUI.createUI();
 		

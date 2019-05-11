@@ -31,8 +31,6 @@ public class CountWordsMain {
 	
 	
 	public static void main(String[] args) {
-		/* Jerry: unremoved "TODO"
-		/TODO Auto-generated method stub*/
 		{
 			// Jerry why define instance as Static?
 			debug();

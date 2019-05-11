@@ -105,14 +105,10 @@ public class StepByStepClient
     	    System.out.println("Final json: " + sb.toString());
     	    
 		} catch (JCoException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
     }
-    
-    
-    
-    
+
     static private void storeLocalFile(JCoTable codes){
     	InputStream is = codes.getBinaryStream("FILECONTENT");
     	try {
@@ -190,7 +186,6 @@ public class StepByStepClient
     	    System.out.println("Final json: " + sb.toString());
     	    
 		} catch (JCoException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
     }

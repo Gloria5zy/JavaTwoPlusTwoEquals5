@@ -46,7 +46,6 @@ class LinkedList<E> {
 public class genericType89 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		LinkedList<String> list = new LinkedList<String>();
 		list.add("world");
 		list.add("hello");

@@ -37,7 +37,6 @@ public class ControlLight implements Runnable, CommunicationForResultAndErrorRea
 			jsonObject.put("oper", operation);
 			
 		} catch (Exception e) {
-			// TODO: handle exception
 			e.printStackTrace();
 		}
 		
@@ -46,7 +45,6 @@ public class ControlLight implements Runnable, CommunicationForResultAndErrorRea
 	
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		Socket client = null;
 		DataOutputStream out = null;
 		DataInputStream in = null;
@@ -99,26 +97,22 @@ public class ControlLight implements Runnable, CommunicationForResultAndErrorRea
 
 	@Override
 	public void startRequest() {
-		// TODO Auto-generated method stub
 		Thread thread = new Thread(this);
 		thread.start();
 		try {
 			thread.join(2000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 
 	@Override
 	public boolean getResult() {
-		// TODO Auto-generated method stub
 		return isSucceeded;
 	}
 
 	@Override
 	public int getErrorReason() {
-		// TODO Auto-generated method stub
 		return reason;
 	}
 

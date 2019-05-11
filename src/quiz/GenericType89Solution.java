@@ -25,7 +25,6 @@ class LinkedList2<E> {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		LinkedList2<String> list = new LinkedList2<String>();
 		list.add("world");
 		list.add("hello");

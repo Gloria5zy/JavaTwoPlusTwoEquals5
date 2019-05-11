@@ -90,7 +90,6 @@ private void DoFindFiles(File file)
 					thread.join();
 					utilityPrint("Jerry: the execution call returns from thread.join()");
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 

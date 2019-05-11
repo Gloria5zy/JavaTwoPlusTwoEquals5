@@ -121,7 +121,6 @@ public class ExactSearch {
 						d = sim.parse(str.substring(0, 17));
 					} catch (ParseException e) 
                     {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
                     break;

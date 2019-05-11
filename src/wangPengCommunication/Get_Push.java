@@ -29,7 +29,6 @@ public class Get_Push implements CommunicationForNameAndIdAndNumber, Runnable{
 	
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		Socket client = null;
 		DataOutputStream out = null;
 		DataInputStream in = null;
@@ -97,31 +96,26 @@ public class Get_Push implements CommunicationForNameAndIdAndNumber, Runnable{
 
 	@Override
 	public ArrayList<String> getName() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ArrayList<Integer> getID() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ArrayList<Integer> getState() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ArrayList<Integer> getUse() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public ArrayList<String> getType() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 	
