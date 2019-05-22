@@ -9,6 +9,7 @@ import java.net.URL;
 public class PictureDownloader implements Runnable {
 	private String mUrl = null;
 	private int index = -1;
+	private String FOLDER = "";
 
 	public PictureDownloader(DownloadTask task){
 		this.mUrl = task.url;

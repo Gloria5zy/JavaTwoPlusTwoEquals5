@@ -34,6 +34,11 @@ public class GithubIssueImageDownloader {
 		file.mkdir();
 	}
 	
+	private static String getUrl(String line){
+		int start = line.indexOf("(");
+		int last = line.indexOf(")");
+		return line.substring(++start, last);
+	}
 	private static List<DownloadTask> getPicUrlList(){
 		int index = 0;
 		List<DownloadTask> resultPic = new ArrayList<DownloadTask>();
@@ -42,7 +47,7 @@ public class GithubIssueImageDownloader {
 			 br = new BufferedReader(new InputStreamReader(new FileInputStream(ISSUEURL ), "utf-8")); 
 			 String line = null;
 			 while ((line = br.readLine()) != null) {
-				line = line.trim();
+				line = getUrl(line);
 				DownloadTask task = new DownloadTask( line, index++);
 				resultPic.add(task);
 			 }
@@ -77,6 +82,7 @@ public class GithubIssueImageDownloader {
 	}
 	
 	public static void main(String[] args) {
+		createFolder("Test");
 		List<DownloadTask> task = getPicUrlList();
 		start(task);
 	}

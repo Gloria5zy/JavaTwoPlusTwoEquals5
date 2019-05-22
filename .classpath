@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="resources/" kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="lib" path="lib/json-rpc-1.0.jar"/>
 	<classpathentry kind="lib" path="lib/qrCode/zxing-core-1.7.jar"/>
 	<classpathentry kind="lib" path="lib/qrCode/zxing-j2se-1.7.jar"/>
